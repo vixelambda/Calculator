@@ -23,4 +23,20 @@ public class Calculator {
     public void setY(double y) {
         this.y = y;
     }
+
+    public double add() {
+        return x + y;
+    }
+
+    public double sub() {
+        return x - y;
+    }
+
+    public double mult() {
+        return x * y;
+    }
+
+    public double div() {
+        return x / y;
+    }
 }
