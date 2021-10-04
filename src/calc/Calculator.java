@@ -39,4 +39,12 @@ public class Calculator {
     public double div() {
         return x / y;
     }
+
+    public double add_nds() {
+        return x * y / 100.0;
+    }
+
+    public double sub_nds() {
+        return (-1) * (x / (1.0 + y / 100.0) - x);
+    }
 }

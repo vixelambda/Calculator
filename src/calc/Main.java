@@ -16,5 +16,7 @@ public class Main {
         System.out.println("Разность чисел: " + obj.sub());
         System.out.println("Произведение чисел: " + obj.mult());
         System.out.println("Частное чисел: " + obj.div());
+        System.out.println("Начисленный НДС: " + obj.add_nds());
+        System.out.println("Выделенный НДС: " + obj.sub_nds());
     }
 }

@@ -27,4 +27,16 @@ class CalculatorTest {
         Calculator t1 = new Calculator(6,1.5);
         assertEquals(4.0, t1.div());
     }
+
+    @org.junit.jupiter.api.Test
+    void testAdd_nds() {
+        Calculator t1 = new Calculator(70000,10);
+        assertEquals(7000.0, t1.add_nds());
+    }
+
+    @org.junit.jupiter.api.Test
+    void testSub_nds() {
+        Calculator t1 = new Calculator(70000,10);
+        assertEquals(6363.636363636368, t1.sub_nds());
+    }
 }
